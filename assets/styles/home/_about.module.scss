@@ -1,0 +1,63 @@
+.acerca {
+  text-align: center;
+  height: 800px;
+  display: flex;
+  align-items: center;
+
+  .acerca_titulo {
+    font-size: 30px;
+    color: #707070;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 20px;
+    color: #8e8e8e;
+    margin-bottom: 5rem;
+  }
+}
+.acerca_card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 50px #0000000d;
+  border-radius: 4px;
+  opacity: 1;
+  height: 350px;
+  &:hover {
+    box-shadow: 0px 15px 10px #0000000d;
+    figure {
+      img {
+        transform: scale(1.1);
+      }
+    }
+    .acerca__ver_mas {
+      color: #001550;
+    }
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  figure {
+    max-height: 250px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transition: all ease-out 0.3s;
+    }
+  }
+  h5 {
+    font-size: 25px;
+    color: #222222;
+  }
+  .acerca__ver_mas {
+    font-size: 18px;
+    color: #8e8e8e;
+  }
+}

@@ -1,0 +1,68 @@
+.footer_content {
+  background-color: #001550;
+  padding: 5rem 0;
+
+  h6 {
+    color: #fff;
+    font-weight: 700;
+  }
+  &_logos {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: flex-end;
+  }
+  &_logo {
+    justify-self: center;
+    align-self: flex-end;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &_redes {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &_menu {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25px 1fr;
+    grid-gap: 10px 0;
+    ul {
+      align-self: flex-start;
+      li {
+        margin: 8px 0;
+        a {
+          color: #fff;
+          font-size: 14px;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  &_contactos {
+    h6 {
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+  &_contacto {
+    display: flex;
+    figure {
+      margin: auto 1rem auto 0;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}
+
+.footer_ultimo {
+  background-color: #222222;
+  height: 100px;
+}

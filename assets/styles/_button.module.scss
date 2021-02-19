@@ -1,0 +1,16 @@
+.error {
+    background-color: red;
+    & span {
+        background-color: green;
+    }
+}
+
+
+.btn__secondary{
+        color:#fff;
+        font-size: 12px;
+}
+
+.nav__main{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}

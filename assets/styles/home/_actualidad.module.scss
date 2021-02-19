@@ -1,0 +1,47 @@
+.actualidad {
+  height: 800px;
+  display: flex;
+  align-items: center;
+
+  &_titulo {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &_cartas {
+    padding: 1.5rem 0;
+
+    .actualidad_carta {
+      &:hover {
+        box-shadow: 0px 10px 50px #0000000d;
+
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      .actualidad_carta_img {
+        overflow: hidden;
+        margin: 0;
+        img {
+          transition: all ease-out 0.3s;
+        }
+      }
+
+      .actualidad_carta_titulo {
+        color: #222222;
+        font-size: 20px;
+        padding: 1rem 1rem 0;
+      }
+      .actualidad_carta_texto {
+        text-align: justify;
+        color: #222222;
+        font-size: 15px;
+        padding: 0 1rem 0.5rem;
+      }
+    }
+  }
+}
